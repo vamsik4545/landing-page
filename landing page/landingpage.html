@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vegetable Market</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Fresh Vegetables Delivered to Your Doorstep</h1>
+            <p>Get the best and fresh vegetables directly from the farm.</p>
+            <button onclick="scrollToSection('#products')">Shop Now</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <marquee behavior="Shop" direction="left">
+        <h2>We are dedicated to delivering the freshest and highest quality vegetables straight from the farm to your kitchen and accepting heavy orders.</h2>
+    </marquee>
+    <h3>K.Srinu  <br>9989341773</h3>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-catalog">
+            <div class="product">
+                <img src="images/potato.jpg" alt="Carrot">
+                <h3>Potato</h3>
+                <p>Fresh and organic potato straight from the farm.</p>
+            </div>
+            <div class="product">
+                <img src="images/onion.jpg" alt="Broccoli">
+                <h3>Onion</h3>
+                <p>High-quality onion with all the nutrients.</p>
+            </div>
+            <div class="product">
+                <img src="images/tamoto.jpg" alt="Tomato">
+                <h3>Tomato</h3>
+                <p>Delicious and juicy tomatoes harvested at the peak of freshness.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Vegetable Market. All Rights Reserved.</p>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
+
+
